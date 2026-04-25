@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* padding-bottom: 10px; */
+    padding: 10px;
+
+    background-color: grey;
+    min-height: 60px;
+}
+
+.navbar .logo {
+    font-size: xxx-large;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a {
+    color: azure;
+
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: crimson;
+}

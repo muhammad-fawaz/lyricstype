@@ -1,0 +1,10 @@
+#Environment variables
+.env
+
+#Virtualenvironment
+.venv
+
+#Misc.
+reasons.md
+lyrics_compose_old.py
+compose.txt
