@@ -1,37 +1,115 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* ----------
+NAVBAR
+---------- */
+
+
 .navbar {
     display: flex;
+    padding: 15px 30px;
     align-items: center;
+    background-color: black;
     justify-content: space-between;
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
-    /* padding-bottom: 10px; */
-    padding: 10px;
-
-    background-color: grey;
-    min-height: 60px;
 }
 
-.navbar .logo {
-    font-size: xxx-large;
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.75rem;
 }
 
-.navbar li {
+.nav-links {
+    gap: 20px;
+    display: flex;
     list-style: none;
-    display: inline-block;
-    padding: 20px;
 }
 
-.navbar a {
+.nav-links a {
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover{
+    color: aquamarine;
+}
+
+
+/* -----
+MAIN
+----- */
+
+
+.main {
+    flex: 1;
+    gap: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .content {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+    max-width: 80vh;
+    max-height: 45vh;
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* -----
+FOOTER
+----- */
+
+
+.footer {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.footer .footer-logo {
     color: azure;
-
+    font-weight: bold;
+    font-size: 1.75rem;
 }
 
-.navbar a:hover {
-    transform: scale(1.1);
-    color: crimson;
+.footer-links {
+    gap: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.footer-links a {
+    color: azure;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: aquamarine;
 }

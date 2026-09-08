@@ -1,10 +1,9 @@
-#Environment variables
+# Environment variables
 .env
 
-#Virtualenvironment
+# Virtualenvironment
 .venv
 
-#Misc.
-reasons.md
+# Misc.
 lyrics_compose_old.py
 compose.txt
